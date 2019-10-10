@@ -1,0 +1,2 @@
+# bamazon
+not a ripoff
