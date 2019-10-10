@@ -5,14 +5,11 @@ USE bamazon_db;
 
 CREATE TABLE products
 (
-    id INT NOT NULL
-    AUTO_INCREMENT PRIMARY KEY,
-product_name VARCHAR
-    (60) NOT NULL,
-department_name VARCHAR
-    (60) NOT NULL,
-price FLOAT NOT NULL,
-stock_quantity INT NOT NULL
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(60) NOT NULL,
+    department_name VARCHAR(60) NOT NULL,
+    price FLOAT NOT NULL,
+    stock_quantity INT NOT NULL
 );
 
     INSERT INTO products
@@ -25,6 +22,6 @@ stock_quantity INT NOT NULL
         ("Headphones", "Electronics", 50, 150),
         ("Kitty Litter", "Pets", 10, 1000),
         ("Dress Socks", "Apparel", 15, 250),
-        ("T-shirt", "Apparel", 20,  5000),
+        ("T-shirt", "Apparel", 20, 5000),
         ("Watch", "Accessories", 200, 100),
         ("Coffee Table", "Furniture", 250, 50);
